@@ -180,6 +180,46 @@ const Volatility = () => {
               </p>
             </div>
           </div>
+
+          <div className="card-d-container">
+            <div className="glass-card-d" style={{ height: "200px" }}>
+              <img src="d5AovGR8MrnpQbC2dnfEDmQF0c.svg" alt="" />
+
+              <div className="top--text">
+                <h3>
+                  <span className="gradient-text"> Equities Analysis</span>
+                </h3>
+                <p className="finetext">
+                  {/* <div className="bullet"></div> */}
+                  {/* <span>
+                  <strong>Unusual Flows:</strong>
+                </span>{" "} */}
+                  Comprehensive coverage of blue-chip and emerging growth
+                  stocks. Analyze sector trends and performance to uncover
+                  investment opportunities.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="glass-card-d">
+              <img src="Hj0OZCVAkATHwwJm7S0FJnqcMo.svg" alt="" />
+
+              <div className="top--text">
+                <h3>
+                  <span className="gradient-text"> Equities Analysis</span>
+                </h3>
+                <p className="finetext">
+                  {/* <div className="bullet"></div> */}
+                  {/* <span>
+                  <strong>Unusual Flows:</strong>
+                </span>{" "} */}
+                  Comprehensive coverage of blue-chip and emerging growth
+                  stocks. Analyze sector trends and performance to uncover
+                  investment opportunities.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="glass-card-d">
             <img src="Hj0OZCVAkATHwwJm7S0FJnqcMo.svg" alt="" />
 
