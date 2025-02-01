@@ -1,0 +1,166 @@
+body {
+  background-color: #0d0d0d;
+  color: azure;
+  margin: 0;
+  padding: 32px;
+  font-family: Sora;
+}
+
+.twitter {
+  display: flex;
+  gap: 5px;
+  width: auto;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 24px;
+  background: rgba(240, 255, 255, 0.2);
+  border: 1px solid azure;
+  color: azure;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.twitter:hover {
+  background-color: rgba(240, 255, 255, 0.9);
+  color: #0d0d0d;
+}
+
+.heropage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 70vh; */
+}
+
+.heropage h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #aaaaaa;
+}
+
+.finetext {
+  font-size: 10px;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.page2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  margin-bottom: 90px;
+}
+
+.text-div {
+  width: 60%;
+}
+
+.header-text {
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+}
+
+.subtext {
+  text-align: center;
+}
+
+.page4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.top img {
+  width: 50%;
+}
+
+.page4-card-text--small {
+  text-align: center;
+  width: 70%;
+}
+
+.glass-card,
+.glass-card-d {
+  width: 40%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to create the glass edge */
+  backdrop-filter: blur(10px); /* Background blur for frosted effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.glass-card-d {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  aspect-ratio: none;
+  align-items: center;
+}
+
+.glass-card img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.bullet {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  border-radius: 50%; /* Makes it a circle */
+  background: linear-gradient(
+    135deg,
+    #d16ba5,
+    #86a8e7,
+    #5ffbf1
+  ); /* Gradient color */
+  display: inline-block;
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.finetext {
+  display: flex;
+  align-items: center;
+}
+
+.page4--container {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page4--top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page5--top {
+  margin-bottom: 80px;
+}
